@@ -55,13 +55,13 @@ class Slider {
         let count = 0;
 
         let buttonPlus = document.querySelector(`.${this.btnNextClass}`);
-        let buttonMinus = document.querySelector(`.${this.btnPrevClass}`);            
+        let buttonMinus = document.querySelector(`.${this.btnPrevClass}`);
 
         buttonPlus.addEventListener('click', () => startAnimation(`next`, this.arrImg, this.pathToImgs));
         buttonMinus.addEventListener('click', () => startAnimation(`prev`, this.arrImg, this.pathToImgs));
 
         function startAnimation(direction = 'next', arrImg, pathToImgs) {
-console.log(this)
+
             images.forEach(item => {
                 if (!item.classList.contains('start')) {
                     item.classList.add('start');
