@@ -31,7 +31,7 @@ class Slider {
             let parentWidth = parent.offsetWidth;
             let imageHeight = images[0].offsetHeight;
             parent.style.height = `${imageHeight}px`;
-            let sectorWidth = parentWidth / sectors;
+            let sectorWidth = Math.ceil(parentWidth / sectors);
 
             images.forEach((item, ind) => {
 

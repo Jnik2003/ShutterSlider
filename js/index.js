@@ -17,9 +17,6 @@ const objSlider2 = {
 }
 
 
-
-let slider1 = new Slider(objSlider1);
-slider1.imgRender();
-
+new Slider(objSlider1).imgRender();
 new Slider(objSlider2).imgRender();
 
