@@ -19,6 +19,10 @@
 
 .start {
     transform: scale(0);
+    /*transform: translateX(-1000px);*/
+    /*transform: translateY(-1000px);*/
+    /*transform:  rotate(360deg);*/
+
     opacity: 0;
 }
 
